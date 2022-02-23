@@ -9,11 +9,17 @@
 * ユーザー情報更新
 * ユーザ削除
 
-## Todo関連P
+## Todo関連
 * Tood登録
 * Todo削除
 * Todo編集
 * Todo参照
+
+# 開始手順
+```
+$ bundle install 
+$ rails s
+```
 
 
 # README
