@@ -1,4 +1,6 @@
 class TasksController < ApplicationController
+  before_action :logged_in_user, only:[:create, :update, :destroy]
+
   def index
     @tasks = Task.all    
     render json: @tasks.to_json
