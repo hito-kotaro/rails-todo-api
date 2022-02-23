@@ -1,5 +1,5 @@
 class TasksController < ApplicationController
-  before_action :logged_in_user, only:[:create, :update, :destroy]
+  before_action :logged_in_user, only:[:show, :create, :update, :destroy]
 
   def show
     @tasks = Task.all    
